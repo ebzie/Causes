@@ -1,0 +1,45 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url(https://userscontent2.emaze.com/images/52d5e44c-e788-45db-bffe-46d3621e2c44/20ea50ae-2be4-425e-bc48-e15f8b27e302.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+	background-color:#D8D8D8  !important;
+}
+
+html ul,html li{
+	margin:0;
+	padding:0;
+}
+html a{
+	color:#D8D8D8;
+	text-decoration:none;
+}
+
+html {
+	overflow-y: scroll;
+}
+.content-text h2{
+	background-color: #D8D8D8;
+}
+.content-text{
+	background-color: #D8D8D8;
+}
+.clear{
+	clear:both;
+	background-color: #D8D8D8;
+}
+
+.content h1{
+    text-align:center;
+    background: #D8D8D8;
+}
+
+.content p{
+	text-align:justify;
+}
