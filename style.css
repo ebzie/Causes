@@ -11,19 +11,19 @@
 .menu-bar .menu li{
   width:20%;
   list-style-type:none;
-  color:#FFF;
+  color:#D8D8D8;
   text-align:center;
   transition:all 0.5s;
 }
 
 .menu-bar .menu li:hover{
   background:#000;
-  color:#0A76B7;
+  color:#D8D8D8;
   transition: background 0.5s;
 }
 
 .menu-bar .menu li.active{
-  color:#0A76B7;
+  color:#D8D8D8;
 }
 
 .content-container{
@@ -32,7 +32,7 @@
 
 .content{
   padding:2% 0 10% 0;
-  background:#FFF;
+  background:#D8D8D8;
 }
 
 #content-1,#content-2,#content-3,#content-4,#content-5{
@@ -49,7 +49,7 @@
   height:20px;
   line-height:100%;
   width:90%;
-  color:#FFF;
+  color:#D8D8D8;
   padding:10px 5%;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .arrow-container .active{
-  background:#0A76B7;
+  background:#5b5f64;
 }
 
 .menu-bar,.menu-bar ul,.menu-bar .menu a{
@@ -104,38 +104,71 @@
   background-size: cover;}
 
 #slide-1{  
-  background: url('http://content.ipad-room.com/previews/Whitewashed_Grunge_Textures_4_by_WebTreatsETC.png')no-repeat center fixed;}
+  background: url('https://0.s3.envato.com/files/18322279/01_Background1.jpg')no-repeat center fixed;}
 #slide-2{
-  background: url('http://content.ipad-room.com/previews/Whitewashed_Grunge_Textures_4_by_WebTreatsETC.png')no-repeat center fixed;}
+  background: url('https://0.s3.envato.com/files/18322279/01_Background1.jpg')no-repeat center fixed;}
 
 #slide-3{  
-  background: url('http://content.ipad-room.com/previews/Whitewashed_Grunge_Textures_4_by_WebTreatsETC.png')no-repeat center fixed;}
+  background: url('https://0.s3.envato.com/files/18322279/01_Background1.jpg')no-repeat center fixed;}
 
 #slide-4{  
-  background: url('http://content.ipad-room.com/previews/Whitewashed_Grunge_Textures_4_by_WebTreatsETC.png')no-repeat center fixed;}
+  background: url('https://0.s3.envato.com/files/18322279/01_Background1.jpg')no-repeat center fixed;}
 
 #slide-5{
-  background: url('http://content.ipad-room.com/previews/Whitewashed_Grunge_Textures_4_by_WebTreatsETC.png')no-repeat center fixed;}
+  background: url('https://0.s3.envato.com/files/18322279/01_Background1.jpg')no-repeat center fixed;}
 
 
 @keyframes scroller{
-0%{background:#0A76B7;} 45%{background:#0A5FB5;transform:scale(1.1);} 100%{background:#0A76B7;transform:scale(1);}
+  0%{
+    background:#5b5f64;
+  } 
+  45%{
+    background:#5b5f64;
+    transform:scale(1.1);
+    } 
+  100%{
+    background:#5b5f64;
+    transform:scale(1);}
 }
 
 
 @-moz-keyframes scroller{
-0%{background:#0A76B7;} 45%{background:#0A5FB5;transform:scale(1.1);} 100%{background:#0A76B7;transform:scale(1);}
+  0%{
+    background:#5b5f64;
+} 
+  45%{
+    background:#5b5f64;
+    transform:scale(1.1);
+} 
+  100%{
+    background:#5b5f64;
+    transform:scale(1);}
 }
-
 @-webkit-keyframes scroller{
-0%{background:#0A76B7;} 45%{background:#0A5FB5;transform:scale(1.1);} 100%{background:#0A76B7;transform:scale(1);}
+  0%{
+    background:#5b5f64;
+} 
+  45%{
+    background:#5b5f64;
+    transform:scale(1.1);
+} 
+  100%{
+    background:#5b5f64;
+    transform:scale(1);
 }
 
 @-ms-keyframes scroller{
-0%{background:#0A76B7;} 45%{background:#0A5FB5;transform:scale(1.1);} 100%{background:#0A76B7;transform:scale(1);}
+  0%{
+  background:#5b5f64;
+} 
+  45%{
+  background:#5b5f64;
+  transform:scale(1.1);
+} 
+  100%{
+  background:#5b5f64;
+  transform:scale(1);}
 }
-
-
 .scroller{
   display:block;
   padding-top:8px;
@@ -150,7 +183,6 @@
   -moz-animation: scroller 1s linear infinite;
   -ms-animation: scroller 1s linear infinite;
   animation: scroller 1s linear infinite;}
-
 .scroller:hover{
   cursor:pointer;
 }
@@ -169,25 +201,4 @@
 .scroll-arrow#scrollright{
   transform-origin: top left;
   transform: rotate(45deg);
-}
-
-
-
-#demodemo {
-  height:400px;
-  width:100%;
-}
-
-.gm-style-iw * {
-  display: block;
-  width: 100%;
-}
-
-.gm-style-iw h4, .gm-style-iw p {
-  margin: 0;
-  padding: 0;
-}
-
-.gm-style-iw a {
-color: #4272db;
 }
